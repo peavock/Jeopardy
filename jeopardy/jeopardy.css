@@ -1,0 +1,28 @@
+/*some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body{
+  text-align: center;
+}
+
+#jeopardy td {
+
+  border: solid 2px white;
+  background-color: #060ce9;
+  color: white;
+  text-align: center;
+}
+
+#column-top td {
+  border: dashed 1px black;
+  width: 175px;
+}
+
+#column-top td:hover {
+  background-color:greenyellow;
+}
