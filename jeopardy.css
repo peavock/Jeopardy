@@ -11,18 +11,21 @@ body{
 }
 
 
-
 #jeopardy td {
 
   border: solid 2px white;
   background-color: #060ce9;
   color: white;
   text-align: center;
+  height: 80px;
+  padding: 20px 0;
+
 }
 
 #column-top td {
-  border: dashed 1px black;
+  border: solid 1px white;
   width: 175px;
+  height: 80px;
 }
 
 #column-top td:hover {
@@ -30,6 +33,12 @@ body{
   background-color:white;
 }
 
+#jeopardy .showing{
+  background-color: white;
+  color: #060ce9;
+}
+
 #jeopardy .answered{
   background-color: #28a200;
+  color: white;
 }
