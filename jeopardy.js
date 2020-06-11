@@ -131,7 +131,7 @@ async function showLoad() {
     await getCategoryIds();
 
     setTimeout(function(){
-        buildCategories(categoryIds);
+        await buildCategories(categoryIds);
         $("button").eq(0).text("Restart!")
         gameSpace.innerHTML='<div id="jeopardy" class="container"></div>'
     },2000)
