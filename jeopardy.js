@@ -123,12 +123,12 @@ function handleClick(evt) {
  * and update the button used to fetch data.
  */
 
-function showLoad() {
+async function showLoad() {
     let gameSpace = document.getElementById("game");
     gameSpace.innerHTML = '<i class="fa fa-spinner fa-spin fa-6x text-primary" aria-hidden-"true"></i>'
     $("button").eq(0).text("Loading...")
     
-    getCategoryIds();
+    await getCategoryIds();
 
     setTimeout(function(){
         buildCategories(categoryIds);
