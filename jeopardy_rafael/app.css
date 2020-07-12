@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+    font-size: 9pt;
+    background-color: purple;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.game th, .game td {
+    border: solid 1px white;
+    width: 12em;
+    padding: 1em;
+}
